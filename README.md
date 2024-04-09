@@ -169,7 +169,7 @@ CMD ["/bin/ash","-c","CERT=/cert/CCC HOST=0.0.0.0 PORT=3001 /collabs-ws-server/n
 EOF
 ```
 
-wher `SSS` stands for the name of your server as explained before
+where `SSS` stands for the name of your server as explained before.
 
 You may then build your docker image using
 
