@@ -142,9 +142,9 @@ new WebSocketNetworkServer(wss)
 
 server.listen(port, host, () => {
   if (CERTPrefix === '') {
-  	console.log(`collabs-ws-server running at http://${host}:${port}/`)
+    console.log(`collabs-ws-server running at http://${host}:${port}/`)
   } else {
-  	console.log(`collabs-ws-server running at https://${host}:${port}/`)
+    console.log(`collabs-ws-server running at https://${host}:${port}/`)
   }
 })
 EOF
