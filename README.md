@@ -51,7 +51,7 @@ If you want your server to be accessible from outside, you may have to **add a f
 
 ## Customization ##
 
-By default, the server uses port 3001 - but you may change that as desired: in the simplest case, just change the _first_ number of the "publish" argument in the `docker run` command to the desired port number **and update your firewall rules accordingly**
+By default, the server uses port 3001 - but you may modify that as desired: in the simplest case, just change the _first_ number of the "publish" argument in the `docker run` command to the desired port number **and update your firewall rules accordingly**
 
 ```
   docker run -d -p XXXX:3001 --restart=always -it collabs-ws-server
