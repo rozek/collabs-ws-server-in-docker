@@ -63,7 +63,7 @@ By default, the server uses port `3001` - but you may modify that as desired: in
 
 For the time being, the original collabs-ws-server does not support TLS (i.e., HTTPS and WSS). Modern browsers, however, often require transport layer security and valid server certificates in order to communicate with external servers.
 
-If you need a TLS-enabled WebSocket server, just follow the instructions below (rather than thos shown above)
+If you need a TLS-enabled WebSocket server, just follow the instructions below (rather than those shown above)
 
 At first, create a private key for your server and obtain a signed certificate for it. Unless your server is publically accessible and has an "official" certificate (e.g., issued by [Let's Encrypt](https://letsencrypt.org/)), you will have to setup your own small "certificate authority" (CA) and let any system, that attempts to connect to your server, trust this CA. You may then use it to generate the required certificate.
 
